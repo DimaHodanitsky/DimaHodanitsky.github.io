@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.first {
+    max-width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, hsl(47, 95%, 76%, .60), rgba(175, 73, 73, 0.90)), linear-gradient(to bottom, hsl(47, 95%, 76%, .60), hsl(47, 95%, 76%, .60))  , url(img/section/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Навигационное меню и весь хэдэр */
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 27px;
+    
+}
+
+header nav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+header nav .logo {
+    max-width: 50%;
+    margin: 0 auto;
+    
+    
+}
+
+
+header nav .logo a{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav .nav_menu {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+nav .nav_menu a {
+    display: inline-block;
+    padding:12px 15px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+nav .nav_menu a:hover {
+    border-bottom:3px solid white;
+}
+
+
+
+
+nav .nav_menu a:first-child {
+    
+    color: #fce38a;
+    border-bottom:3px solid #fce38a;
+}
+
+nav .nav_menu a:last-child {
+    transition: 0.5s;
+    
+}
+
+
+nav .nav_menu a:hover:last-child {
+    transform: scale(1.5);
+    transition: 0.5s;
+    border: none;
+}
+
+
+nav .nav_menu a:hover:first-child {
+    
+    color: white;
+    border-bottom:3px solid white;
+}
+
+
+/* Контент 1 секции */
+.first_content {
+    margin: 0 auto;
+   padding-top: 5%;
+   width: 40%;
+}
+.first_content h1, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.first_content h2{
+    font-family: 'Kaushan Script';
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 7%;
+    font-weight: normal;
+}
+.first_content h1{
+    font-family: 'Montserrat';
+    font-size: 120px;
+    text-align: center;
+    margin-bottom: 1vh;
+    line-height: 90%;
+    letter-spacing: normal;
+}
+
+hr {
+    margin: 50px auto;
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 40px;
+    border: 3px solid white;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #e1c280;
+    transition: 0.2s;
+    
+}
+
+
+/* Вторая секция */
+
+.second {
+    background-color: #white;
+}
+
+.second_header {
+    text-align: center;
+    
+    padding-top: 6%;
+}
+
+.second_header h1 {
+    color: black; 
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    padding-bottom: 2%;
+}
+
+
+.second_header  h2 {
+    color: black;
+    font-family: 'Kaushan Script';
+    font-weight: normal;
+    padding-bottom: 1%;
+}
+
+.second_header  hr {
+    margin: 0px auto;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    border: none;
+}
+
+
+.second_text {
+    text-align: center;
+    padding: 3% 19%;
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #999999;
+}
+
+
+.second_blocks {
+width: 1210px;
+margin: 0 auto;
+
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.blocks_item {
+    width:380px;
+    height: 250px;
+    padding-top: 4%;
+}
