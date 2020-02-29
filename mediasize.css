@@ -33,7 +33,7 @@ header nav .logo a{
 
 .first_content {
     margin: 0 auto;
-    padding-top: 35%;
+    padding-top: 100px;
     width: 40%;
  }
 
@@ -43,7 +43,7 @@ header nav .logo a{
     font-family: 'Kaushan Script';
     font-size: 20px;
     text-align: center;
-    margin-bottom: 35%;
+    margin-bottom: 80px;
     font-weight: normal;
 }
 .first_content h1{

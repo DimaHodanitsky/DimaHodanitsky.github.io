@@ -28,9 +28,7 @@ header nav {
     width: auto;
     display: flex;
     justify-content: space-between;
-    
-    
-    
+
 }
 
 header nav .logo {
@@ -99,7 +97,7 @@ nav .nav_menu a:hover:first-child {
 
 /* Контент 1 секции */
 .first_content {
-    margin: 0 auto;
+   margin: 0 auto;
    padding-top: 5%;
    width: 40%;
 }
@@ -209,8 +207,6 @@ hr {
 .second_blocks {
 width: 1210px;
 margin: 0 auto;
-
-
 display: flex;
 justify-content: space-between;
 
