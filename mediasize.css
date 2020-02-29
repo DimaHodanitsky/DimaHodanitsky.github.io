@@ -3,7 +3,7 @@
 
 .first {
     max-width: 1024px;
-    height: 100vh;
+    min-height: 100vh;
     padding-bottom: 15%;
     background-image: linear-gradient(to top, hsl(47, 95%, 76%, .60), rgba(175, 73, 73, 0.90)), linear-gradient(to bottom, hsl(47, 95%, 76%, .60), hsl(47, 95%, 76%, .60)),url(img/section/bg1.png) ;
     background-repeat: no-repeat;
@@ -20,15 +20,17 @@ header {
 }
 
 nav .nav_menu {
-    display: none;
+    display: /* none */;
 }
 header nav .logo {
     margin: 0;
-    margin-left: 3%;
+    margin-top: 2%;
+    
 }
 
 header nav .logo a{
     font-size: 20px;
+    
 }
 
 .first_content {
@@ -64,6 +66,11 @@ header nav .logo a{
 }
 
 
+.blocks_item {
+    width:380px;
+    height: 250px;
+    padding-top: 4%;
+}
 
 
 
@@ -102,3 +109,10 @@ header nav .logo a{
     }
 }
     
+
+
+@media (max-width: 675px) {
+    nav .nav_menu {
+        display: none;
+    }
+}
