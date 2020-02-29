@@ -12,7 +12,7 @@
     background-image: linear-gradient(to top, hsl(47, 95%, 76%, .60), rgba(175, 73, 73, 0.90)), linear-gradient(to bottom, hsl(47, 95%, 76%, .60), hsl(47, 95%, 76%, .60))  , url(img/section/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    padding-bottom: 10%;
 }
 
 /* Навигационное меню и весь хэдэр */
@@ -135,6 +135,7 @@ hr {
 .btn {
     display: block;
     margin: 0 auto;
+   
     width: 160px;
     height: 40px;
     border: 3px solid white;
@@ -149,6 +150,7 @@ hr {
     font-size: 12px;
     transition: 0.2s;
     cursor: pointer;
+    
 }
 
 .btn:hover {
