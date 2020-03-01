@@ -137,13 +137,22 @@ header nav .logo a{
        padding:12px 12px;
     }
 
+    .second_footer_container {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
     .second_footer_item {
         display: block;
         width: auto;
         height: auto;
         border: none;
         margin: 0 auto;
-        padding-top: 5%;
+        padding-top: 15%;
         padding-bottom: 0;
         
     }
