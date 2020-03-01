@@ -159,11 +159,13 @@ header nav .logo a{
         max-width: 135px;
         height: auto;
         line-height: auto;
+    }   
+        .second_footer_item:last-child {
+            border: none;
+        }
+       
+       
         
     
-       
-       
-        
-    }
 
 }
