@@ -116,6 +116,14 @@ header nav .logo a{
         /*  height: 250px; */ 
        /*  padding-top: 4%; */
     }
+
+    
+
+
+
+
+
+
 }
     
 
@@ -128,4 +136,34 @@ header nav .logo a{
         display: block;
        padding:12px 12px;
     }
+
+    .second_footer_item {
+        display: block;
+        width: auto;
+        height: auto;
+        border: none;
+        margin: 0 auto;
+        padding-top: 0%;
+        padding-bottom: 0;
+        
+    }
+
+    .second_footer_item p {
+        padding-top: 1%;
+        padding-bottom: 3%;
+        font-size: 13px;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 135px;
+        height: auto;
+        line-height: auto;
+        
+    
+       
+       
+        
+    }
+
 }
