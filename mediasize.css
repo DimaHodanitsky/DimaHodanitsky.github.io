@@ -104,6 +104,7 @@ header nav .logo a{
     }
     
     .blocks_item {
+        margin: 0 auto;
         height: 300px;
     }
     
