@@ -20,9 +20,10 @@ header {
     
 }
 
-nav .nav_menu {
-    display: /* none */;
-}
+
+
+
+
 header nav .logo {
     margin: 0;
     margin-top: 2%;
@@ -46,7 +47,7 @@ header nav .logo a{
     font-family: 'Kaushan Script';
     font-size: 20px;
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
     font-weight: normal;
 }
 .first_content h1{
@@ -104,16 +105,18 @@ header nav .logo a{
     
     .blocks_item {
         margin: 0 auto;
-        width:380px;
-        height: 250px;
-        padding-top: 4%;
+        padding: 0;
     }
 }
     
 
 
 @media (max-width: 675px) {
-    nav .nav_menu {
+    nav .nav_menu a {
         display: none;
+    }
+    nav .nav_menu a:last-child{
+        display: block;
+        padding:12px 12px;
     }
 }
